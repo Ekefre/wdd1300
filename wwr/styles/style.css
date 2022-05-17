@@ -1,21 +1,25 @@
-#content{
-    max-width:1600px;
+#content {
+    max-width: 1600px;
     margin: 0 auto;
 
 }
 
-nav a{
+nav a {
     text-align: center;
-    color:#003049;
+    color: #003049;
     text-decoration: none;
 }
-#hero-msg h1, #hero-msg h4{
+
+#hero-msg h1,
+#hero-msg h4 {
     text-align: center;
 }
-.botton-box{
+
+.botton-box {
     text-align: center;
 }
-main section{
+
+main section {
     text-align: center;
 }
 
@@ -23,68 +27,89 @@ main section{
 #background {
     height: 725px;
 }
-body{background-color:#003049;
+
+body {
+    background-color: #003049;
 
 }
-header{
-    background-color: #941404 ;
-}
-nav a:hover{
-    background-color:#d62828 ;
-    color: white;
-}
-.book, .join{
-    background-color: #941404 ;
-    color:white;
-    text-decoration: none;
-}
-.book:hover, .join:hover{
-    background-color:#d62828 ;
-    color:white;
-}
-#background{
-    background-color:#941404;
 
-}
-.msg{
-    background-color:#941404;
-}
-footer{
+header {
     background-color: #941404;
 }
-.home-title{
+
+nav a:hover {
+    background-color: #d62828;
     color: white;
 }
-h4{
-    color:white;
-}
-.msg h2{
-    color:white;
-}
-.img p{
-    color:white;
-}
-footer h3{
-    color:white;
-}
-footer a{
-    color:#003049;
+
+.book,
+.join {
+    background-color: #941404;
+    color: white;
     text-decoration: none;
 }
-footer a:hover{
+
+.book:hover,
+.join:hover {
+    background-color: #d62828;
     color: white;
 }
-.logo{
-    width:80%;
+
+#background {
+    background-color: #941404;
+
 }
-.icon{
+
+.msg {
+    background-color: #941404;
+}
+
+footer {
+    background-color: #941404;
+}
+
+.home-title {
+    color: white;
+}
+
+h4 {
+    color: white;
+}
+
+.msg h2 {
+    color: white;
+}
+
+.img p {
+    color: white;
+}
+
+footer h3 {
+    color: white;
+}
+
+footer a {
+    color: #003049;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+
+.logo {
     width: 80%;
 }
-#hero-img{
+
+.icon {
+    width: 80%;
+}
+
+#hero-img {
     width: 100%;
 }
 
-footer h3 a:hover{
+footer h3 a:hover {
     text-decoration: underline;
 
 }
