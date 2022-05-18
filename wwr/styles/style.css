@@ -9,6 +9,14 @@ nav a {
     color: #003049;
     text-decoration: none;
 }
+nav{
+    text-align: center;
+    text-decoration: none;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+}
 
 #hero-msg h1,
 #hero-msg h4 {
@@ -98,11 +106,11 @@ footer a:hover {
 }
 
 .logo {
-    width: 80%;
+    width: 80px;
 }
 
 .icon {
-    width: 80%;
+    width: 80px;
 }
 
 #hero-img {
@@ -112,4 +120,7 @@ footer a:hover {
 footer h3 a:hover {
     text-decoration: underline;
 
+}
+*{
+    border: 3px solid blue;
 }
