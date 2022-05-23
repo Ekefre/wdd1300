@@ -106,7 +106,7 @@ h4 {
 .msg h2 {
     color: white;
     font-family: "Rock Salt", sans-serif;
-    
+
 }
 
 .img p {
@@ -145,29 +145,36 @@ footer h3 a:hover {
 
 }
 
-h2{
+h2 {
     margin: 0;
 }
- 
-#logo_link{
+
+#logo_link {
     padding-top: 5px;
 }
-.msg p{
+
+.msg p {
     padding-bottom: 15px;
 }
-footer .social img{
+
+footer .social img {
     padding-top: 15px;
 }
 
-.rivers-card, .camping-card, .rapinds-card{
+.rivers-card,
+.camping-card,
+.rapinds-card {
     margin: 200px 0;
 }
-.card-img{
+
+.card-img {
     border: 10px solid #d62828;
 }
-main section img{
+
+main section img {
     box-sizing: border-box;
 }
-.book{
+
+.book {
     text-align: center;
 }
