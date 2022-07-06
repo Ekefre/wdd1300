@@ -263,6 +263,97 @@ main section img {
 }
 
 
+/* css for rivers.html begins here */
+#river-head h1{
+    text-align: center;
+    font-family:"Rock Salt", sans-serif;
+    font-size: 3em;
+    color: white;
+    
+}
+.river-grid h2{
+    padding: 5px;
+    color:#a82727;
+}
+.river-grid img{
+    width: 400px;
+    height: 200px;
+    border: 10px solid #d62828;
+
+}
+
+.river-grid p{
+    
+    color: beige;
+    font-size: 30px;
+}
+
+.river-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    grid-gap:5px;
+
+    
+
+
+}
+
+.first-river-card{
+    grid-column:1/4;
+    grid-row: 1/2;
+    
+}
+.first-river-card img{
+    float: right;
+    margin-top: 30px;
+
+}
+
+.second-river-card{
+    grid-column:1/4;
+    grid-row: 2/3;
+    position: relative;
+    
+    
+}
+.second-river-card img{
+    float: right;
+    margin-top: 25px;
+
+}
+
+.third-river-card{
+    grid-column:1/4;
+    grid-row: 3/4;
+    position: relative;
+}
+.third-river-card img{
+    float: left;
+    position: relative;
+    margin-top: 25px;
+}
+
+.contact-us a{
+    background-color: #941404;
+    color: black;
+    font-size: 4em;
+    position: relative;
+    margin-left: 540px;
+    border-radius: 30px;
+
+    
+}
+
+.contact-us a:hover{
+    background-color: #003049 ;
+    color: white;
+}
+
+
+
+
+
 
 @media screen and (max-width: 900px) {
 
