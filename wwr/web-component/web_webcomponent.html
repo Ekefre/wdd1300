@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How To Create a Sticky Navbar</title>
+    <link rel="stylesheet" href="web.css">
+
+</head>
+
+<body>
+    <div id="navbar">
+        <a href="#home">Home</a>
+        <a href="#news">Our Blog</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <h1>Are Latter-day Saints Christian?</h1>
+    <P>Yes. The Church of Jesus Christ of Latter-day Saints is a Christian church but is neither Catholic nor
+        Protestant. Rather, it is a restoration of the Church of Jesus Christ as originally established by the Savior in
+        the New Testament of the Bible. The Church does not embrace the creeds that developed in the third and fourth
+        centuries that are now central to many other Christian churches.
+
+        Latter-day Saints believe God sent His Son, Jesus Christ, to save all humanity from death and their individual
+        sins. Jesus Christ is central to the lives of Church members. They seek to follow His example by being baptized
+        (see Matthew 3:13–17), praying in His holy name (see Matthew 6:9–13), partaking of the sacrament (see Luke
+        22:19–20), doing good to others (see Acts 10:38) and bearing witness of Him through both word and deed (see
+        James 2:26). The only way to salvation is through faith in Jesus Christ.</P>
+
+    <h1>What do Latter-day Saints believe about God?</h1>
+    <p>God is often referred to in The Church of Jesus Christ of Latter-day Saints as our Heavenly Father because He is
+        the Father of all human spirits and they are created in His image (see Genesis 1:27). It is an appropriate term
+        for God, who is kind and just, all-wise and all-powerful. God the Father; His Son, Jesus Christ; and the Holy
+        Ghost constitute the Godhead, or Trinity, for Church members. Latter-day Saints believe God is embodied, though
+        His body is perfect and glorified.</p>
+
+    <h1>Do Latter-day Saints believe in the Trinity?</h1>
+    <P>Latter-day Saints most commonly use the term “Godhead” to refer to the Trinity. The first article of faith for
+        the Latter-day Saints reads, “We believe in God, the Eternal Father, and in His Son, Jesus Christ, and in the
+        Holy Ghost.” Latter-day Saints believe God the Father, Jesus Christ and the Holy Ghost are separate personages,
+        but one in will and purpose—not literally the same being or substance, as conceptions of the Holy Trinity
+        commonly imply.</P>
+    <h1>What is the Latter-day Saint view of the purpose of life?</h1>
+    <p>For Latter-day Saints, mortal existence is seen in the context of a great sweep of history, from a pre-earth life
+        where the spirits of all humankind lived with Heavenly Father to a future life in His presence where continued
+        growth, learning and improving will take place. Life on earth is regarded as a temporary state in which men and
+        women are tried and tested—and where they gain experiences obtainable nowhere else. God knew humans would make
+        mistakes, so He provided a Savior, Jesus Christ, who would take upon Himself the sins of the world. To members
+        of the Church, physical death on earth is not an end but the beginning of the next step in God’s plan for His
+        children.</p>
+    <h1>Do Latter-day Saints believe in the Bible?</h1>
+    <p>Yes. The Church reveres the Bible as the word of God, a sacred volume of scripture. Latter-day Saints cherish its
+        teachings and engage in a lifelong study of its divine wisdom. Moreover, during worship services the Bible is
+        pondered and discussed. Members are encouraged to include the Bible in their family and personal daily scripture
+        study. Additional books of scripture—including the Book of Mormon—strengthen and reinforce God’s teachings
+        through additional witnesses, and they provide moving accounts of the personal experiences many individuals had
+        with Jesus Christ. According to Church apostle M. Russell Ballard, “The Book of Mormon does not dilute nor
+        diminish nor de-emphasize the Bible. On the contrary, it expands, extends, and exalts it” (“The Miracle of the
+        Holy Bible,” Ensign or Liahona, May 2007, 82).</p>
+    <h1>What is the Book of Mormon?</h1>
+    <p>In addition to the Old and New Testaments of the Bible, the Book of Mormon, named after one of its ancient
+        prophets, is another testament of Jesus Christ. It contains the writings of prophets, giving an account of God’s
+        dealings with the peoples who lived anciently on the American continent. For Latter-day Saints it stands
+        alongside the Old and New Testaments of the Bible as holy scripture.</p>
+    <h1>What is a temple?</h1>
+    <p>Temples existed throughout biblical times. These buildings were considered the house of the Lord (see 2
+        Chronicles 2:1–5). Latter-day Saint temples are likewise considered houses of the Lord by Church members.
+
+        To Latter-day Saints, temples are sacred buildings in which they are taught about the central role of Christ in
+        God’s plan of salvation and their personal relationship with God.
+
+        In temples, members of the Church make covenants, or promises, with God to live a virtuous and faithful life.
+        They also participate in ordinances on behalf of their deceased ancestors.
+
+        Temples of The Church of Jesus Christ of Latter-day Saints are also used to perform marriage ceremonies in which
+        the faithful are promised eternal life with their families. For members of the Church, family is of central
+        importance.</p>
+    <h1>Do Latter-day Saints believe in modern-day prophets?</h1>
+    <p>Yes. The Church is governed today by apostles, reflecting the way Jesus organized His Church in biblical times.
+        Three apostles constitute the First Presidency (consisting of the president, or prophet of the Church, and his
+        two counselors), and together with the Quorum of the Twelve Apostles, they have responsibility to lead the
+        Church worldwide and serve as special witnesses of the Lord Jesus Christ. Each is accepted by Church members in
+        a prophetic role corresponding to the apostles in the Bible.</p>
+    <h1>Do Latter-day Saints believe that the apostles receive revelations from God?</h1>
+    <p>Yes. When Latter-day Saints speak to God, they call it prayer. When God responds through the influence of the
+        Holy Spirit, members refer to this as revelation. Revelation, in its broad meaning, is divine guidance or
+        inspiration; it is the communication of truth and knowledge from God to His children on earth, suited to their
+        language and understanding. It simply means to uncover something not yet known. The Bible illustrates different
+        types of revelation, ranging from dramatic visions to gentle feelings—from the “burning bush” to the “still,
+        small voice.” Latter-day Saints believe that divine guidance generally comes quietly, taking the form of
+        impressions, thoughts and feelings carried by the Spirit of God.</p>
+</body>
+<script>
+    // When the user scrolls the page, execute myFunction
+    window.onscroll = function () {
+        myFunction()
+    };
+
+    // Get the navbar
+    var navbar = document.getElementById("navbar");
+
+    // Get the offset position of the navbar
+    var sticky = navbar.offsetTop;
+
+    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+</script>
+
+</html>
