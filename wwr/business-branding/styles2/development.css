@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Joan&family=Ubuntu:wght@300&display=swap');
 
+
+
+
 #content {
     max-width: 1900px;
     margin: 0 auto;
@@ -60,134 +63,70 @@ html, body{
     margin-left: 60px;
     width: 300px;
 }
-#m10{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 10px;
-    z-index: -2;
-  
-    
-  
-  
-
-}
-div{
-    grid-column: 1/3;
-    grid-row: 1/5;
-    
-}
-#m10-about{
-    grid-column: 1/3;
-    grid-row: 3/5;
-    font-size: 1.2em;
-    margin-bottom: 25px;
-    margin-left: 60px;
-    margin-right: 30px;
-    font-family: "Joan", sans-serif;
-
-}
-#m10-img{
-    height: 650px;
-    width: 100%;
-    box-shadow: 5px 5px 20px #0a1037;
-}
-.about-title{
-    grid-column: 1/3;
-    grid-row: 1;
-    place-self: center;
-    margin-top: 70px;
-    font-family: "Ubuntu", sans-serif;
-    text-decoration: none;
-    
-}
-.about-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    margin-top: 200px;
-    
-}
-.meeting{
-    grid-column: 1/3;
-    grid-row: 1/3;
-    width: 100%;
-    height: 100%;
-    transition: transform .5s;
-    box-shadow: 5px 5px 20px #0a1037;
-
+body{
+    background-color: blue;
 }
 
 
-.why-m10{
-    grid-column: 3/4;
-    grid-row: 1;
-    z-index: 1;
-    font-size: 30px;
-    margin-top: 30px;
-    font-family: "Ubuntu", sans-serif;
-    color: #0D21A1;
-}
 
 
-.experienced{
-    grid-column:2/3 ;
-    grid-row:1/3 ;
-    margin-right: 30px;
-    margin-bottom: 50px;
-    padding-left: 20px;
-    font-size: 10px;
-  
-}
-.proven{
-    grid-column:3/4 ;
-    grid-row:1/3 ;
-    margin-right: 30px;
-    
-
-}
-
-.accountable{
-    grid-column:4/5 ;
-    grid-row:1/3 ;
-    margin-right: 30px;
-    
-
-}
-.background{
-    background-color: #FFC4EB;
-    grid-column:2/5 ;
-    grid-row:1/3 ;
-    height: 488px;
-    margin-top: 25px;
-    transition: transform .5s;
-    box-shadow: 5px 5px 20px #0a1037;
-
-   
-}
-.meeting:hover {
-    opacity: 1;
-    transform: scale(1.1);
-}
 
 
-.about-grid section{
-    font-size: 20px;
-    margin-top: 90px;
-    font-family: "Joan", sans-serif;
-    color: #0D21A1;
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 footer{
     background-image: url('../images/img6.jpg');
     background-size: cover;
     margin-top: 200px;
+    margin-bottom: 1px;
     display: grid;
     height: 400px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+
 
 }
 footer .social{
@@ -271,15 +210,3 @@ footer h3{
     padding: 15px;
     font-family:"Ubuntu", serif;
 }
-
-
-
-
-
-
-
-
-
-
-
-
